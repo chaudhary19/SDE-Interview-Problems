@@ -29,7 +29,7 @@ Things to remeber:
 1) initially all the pointers are pointing to -1
 2) whenever you got 0, first increase two, then one and then zero.
 3) similarly when you got 1, increase two first and then one.
-4) just put all the larger numbers before smaller ones.
+4) just put all the larger numbers after smaller ones.
 5) time complexity : O(n) single pass algorithm
 
 """
