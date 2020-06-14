@@ -20,7 +20,7 @@ class Solution(object):
         return -1
         
 """
-Things to remeber:
+Things to remember:
 
 1) if length <= 1, not possible to have a cycle or duplicate node.
 2) use Floyd technique to find cycle by using slow and fast pointer.
