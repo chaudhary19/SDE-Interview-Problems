@@ -16,10 +16,11 @@ class Solution(object):
                 
                 i = j = k = 0                           # merge the two sorted parts
                 while i<len(left) and j<len(right):
-                    if left[i] < right[j]:
+                    if left[i] <= right[j]:
                         nums[k] = left[i]
                         i += 1
                     else:
+                        inv_count += len(left) - i
                         nums[k] = right[j]
                         j += 1
                     k += 1
